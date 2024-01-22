@@ -1,15 +1,16 @@
+import sinon from 'sinon';
 import Cache from '../index';
 
 let cache: any;
 let clock: any;
 
 beforeEach(() => {
-      clock = jest.spyOn(global, 'setTimeout').mockImplementation((fn) => fn());
       cache = new Cache();
+      clock = sinon.useFakeTimers();
 });
 
 afterEach(() => {
-      clock.mockRestore();
+      clock.restore();
 });
 
 describe('node-cache', () => {
