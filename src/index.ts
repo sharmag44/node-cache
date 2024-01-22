@@ -115,7 +115,7 @@ class Cache {
             return this._size;
       }
 
-      public memsize(): number {
+      public memSize(): number {
             return Object.keys(this._cache).length;
       }
 
