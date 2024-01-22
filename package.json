@@ -1,6 +1,7 @@
 {
   "name": "memory-cache",
   "description": "A simple in-memory cache. put(), get() and del()",
+  "type": "commonjs",
   "author": "Paul Tarjan <npm@paulisageek.com>",
   "contributors": [
     {
@@ -29,14 +30,14 @@
   },
   "license": "BSD-2-Clause",
   "devDependencies": {
-    "chai": "^2.2.0",
-    "gulp": "^3.8.11",
+    "chai": "^5.0.0",
+    "gulp": "^4.0.2",
     "gulp-exit": "0.0.2",
-    "gulp-istanbul": "^0.7.0",
-    "gulp-jshint": "^1.10.0",
-    "gulp-mocha": "^2.0.1",
-    "jshint-stylish": "^1.0.1",
-    "sinon": "^1.14.1",
+    "gulp-istanbul": "^1.1.3",
+    "gulp-jshint": "^2.1.0",
+    "gulp-mocha": "^10.0.0",
+    "jshint-stylish": "^2.2.1",
+    "sinon": "^17.0.1",
     "sinon-chai": "^2.7.0"
   }
 }
